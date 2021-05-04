@@ -1,12 +1,17 @@
 # Open files
 alias openProfile='code ~/.profile'
 
+alias rmModules="rm -rf node_modules/ package-lock.json"
+
 # Git
 alias sts='git status'
 alias greset='git checkout -- .'
+alias goMain='git checkout main'
 alias goMaster='git checkout master'
 alias goDevelop='git checkout develop'
+alias mainAndPull='goMain && pull'
 alias masterAndPull='goMaster && pull'
+alias developAndPull='goDevelop && pull'
 
 function branch() {
   echo "$(git symbolic-ref --short HEAD)"
@@ -110,3 +115,7 @@ style[bgGreen]="\e[42m"
 style[bgYellow]="\e[43m"
 style[bgBlue]="\e[44m"
 style[bgMagenta]="\e[45m"
+
+# OHMUNITY
+
+alias iosLive='ionic capacitor run ios -l --external'

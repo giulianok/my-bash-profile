@@ -119,3 +119,9 @@ style[bgMagenta]="\e[45m"
 # OHMUNITY
 
 alias iosLive='ionic capacitor run ios -l --external'
+alias runOnIOS="ionic capacitor run ios -l --external"
+alias runOnAndroid="ionic capacitor run android -l --external"
+alias hasuraConsole="hasura console --console-port 9090 --browser=false"
+alias influexerHasuraConsole="hasura console --console-port 9090 --browser=false"
+alias ngrokHasura="~/ngrok http -subdomain=ohmunity-giuliano 8080"
+alias ngrokBE="~/ngrok http -subdomain=ohmunity 9000"

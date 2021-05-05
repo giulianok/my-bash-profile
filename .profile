@@ -96,8 +96,6 @@ function listCommands() {
   "
 }
 
-echo "\n\u001b[32m\u001b[1mWelcome Giuliano! You're awesome! 😎${style[reset]}";
-
 declare -A style
 style[reset]="\e[0m"
 style[bold]="\e[1m"

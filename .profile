@@ -124,8 +124,8 @@ alias runOnAndroid="ionic capacitor run android -l --external"
 
 alias hasuraConsole="hasura console --console-port 9090 --browser=false"
 
-alias ngrokOhmunityHasura="~/ngrok http -subdomain=hasura-all 8080" # note: cannot use 9090
+alias ngrokOhmunityHasura="~/ngrok http -subdomain=ohmunity-hasura 8080" # note: cannot use 9090
 alias ngrokOhmunityBE="~/ngrok http -subdomain=ohmunity-be 9000"
 
-alias ngrokInfluexerHasura="~/ngrok http -subdomain=hasura-all 8090" # note: cannot use 9090
+alias ngrokInfluexerHasura="~/ngrok http -subdomain=influexer-hasura 8090" # note: cannot use 9090
 alias ngrokInfluexerBE="~/ngrok http -subdomain=influexer-be 5000"

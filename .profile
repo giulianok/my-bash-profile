@@ -121,7 +121,11 @@ style[bgMagenta]="\e[45m"
 alias iosLive='ionic capacitor run ios -l --external'
 alias runOnIOS="ionic capacitor run ios -l --external"
 alias runOnAndroid="ionic capacitor run android -l --external"
+
 alias hasuraConsole="hasura console --console-port 9090 --browser=false"
-alias influexerHasuraConsole="hasura console --console-port 9090 --browser=false"
-alias ngrokHasura="~/ngrok http -subdomain=ohmunity-giuliano 8080"
-alias ngrokBE="~/ngrok http -subdomain=ohmunity 9000"
+
+alias ngrokOhmunityHasura="~/ngrok http -subdomain=hasura-all 8080" # note: cannot use 9090
+alias ngrokOhmunityBE="~/ngrok http -subdomain=ohmunity-be 9000"
+
+alias ngrokInfluexerHasura="~/ngrok http -subdomain=hasura-all 8090" # note: cannot use 9090
+alias ngrokInfluexerBE="~/ngrok http -subdomain=influexer-be 5000"

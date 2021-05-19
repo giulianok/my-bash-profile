@@ -120,7 +120,8 @@ alias iosLive='ionic capacitor run ios -l --external'
 alias runOnIOS="ionic capacitor run ios -l --external"
 alias runOnAndroid="ionic capacitor run android -l --external"
 
-alias hasuraConsole="hasura console --console-port 9090 --browser=false"
+alias hasuraConsoleOhmunity="hasura console --console-port 9090 --browser=false --api-port 9693"
+alias hasuraConsoleInfluexer="hasura console --console-port 9091 --browser=false --api-port 9694"
 
 alias ngrokOhmunityHasura="~/ngrok http -subdomain=ohmunity-hasura 8080" # note: cannot use 9090
 alias ngrokOhmunityBE="~/ngrok http -subdomain=ohmunity-be 9000"
